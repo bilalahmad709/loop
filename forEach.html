@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foreach loop</title>
+</head>
+<body>
+    <h2>forEach loop</h2>
+    <p> A "for each" loop in JavaScript is used to 
+         iterate over the elements of an array or 
+         other iterable object, one by one. It allows
+          you to perform a specific action on each
+           element without explicitly specifying the 
+           index or length of the array. <br>e.g</p>
+           
+           <script>
+                var a=["bilal ","umar", "shekho" , "zahid"];
+                a.forEach(function(bilal){
+                 document.write(bilal + "<br>");
+                })
+           </script>
+           <h3>OR you can also use it as following.</h3>
+           <script>
+           var mcs=["khan", "ali", "sham", "zakir"];
+           mcs.forEach(hi);
+           function hi(value , index){
+            document.write(index + ":" + value + "<br>")
+           }
+
+           </script>
+           
+</body>
+</html>
